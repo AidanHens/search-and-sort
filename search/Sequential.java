@@ -16,10 +16,10 @@ public class Sequential
   public static int search(int[] arr, int target) {
     for (int i = 0; i < arr.length; i++) {
         if(arr[i] == target) {
-            return i; //target found at i 
+            return i; 
         }
     }
-    return -1; //target not found
+    return -1; 
   }
   
   public static void main(String[] args) {
